@@ -6,7 +6,7 @@ Simple Django project template I pieced together while learning Django. Includes
 ## How to install
 
     $ django-admin.py startproject project_name --template=http://github.com/donnywdavis/Django_Template/archive/master.zip
-    $ pip install requirements.txt
+    $ pip install -r requirements.txt
 
 ## Environment Variables
 
