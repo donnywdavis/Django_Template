@@ -110,4 +110,4 @@ target/
 
 *.sqlite3
 static/static_root
-project_conf/settings/dev.py
+*/settings/dev.py
