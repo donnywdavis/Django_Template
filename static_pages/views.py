@@ -9,4 +9,4 @@ def index(request):
     :return: Render the template to the browser.
     """
 
-    return render(request, 'index.html', {})
+    return render(request, 'static_pages/index.html', {})
