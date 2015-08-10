@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 
-def home(request):
+def index(request):
     """
     This is the route for the home page of the site.
 
@@ -9,4 +9,4 @@ def home(request):
     :return: Render the template to the browser.
     """
 
-    return render(request, 'index.html', {})
+    return render(request, 'static_pages/index.html', {})
