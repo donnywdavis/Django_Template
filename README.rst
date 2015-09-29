@@ -10,7 +10,7 @@ How to install
 When creating a new project use the ``--template`` parameter to clone the project template and change ``project_name`` to
 the name of your project. ::
 
-    $ django-admin startproject project_name --template=http://github.com/donnywdavis/Django_Template/archive/master.zip
+    $ django-admin.py startproject project_name --template=http://github.com/donnywdavis/Django_Template/archive/master.zip
 
 requirements.txt
 ----------------
@@ -36,8 +36,8 @@ Environment variables
 Use these environment variables to set up the environment to load the proper settings files and the secret key that is
 used for validations and security.
 
-- ENVIRONMENT - Set this to either DEVELOPMENT or PRODUCTION
-- SECRET_KEY - Set your secret key here to be used by the application
+* ENVIRONMENT - Set the value to either 'DEVELOPMENT' or 'PRODUCTION'
+* SECRET_KEY - Set your secret key here to be used by the application
 
 Procfile
 --------
@@ -51,9 +51,9 @@ Settings
 
 The settings files are found in ``/project_name/settings/``.
 
-- \__init\__.py loads all of the common.py settings and then based on the ``ENVIRONMENT`` it will load either production.py
+* \__init\__.py loads all of the common.py settings and then based on the ``ENVIRONMENT`` it will load either production.py
 or dev.py.
-- common.py contains all of the settings that will be used in both production and development environments.
-- production.py contains only the settings that are used in production.
-- dev.example.py contains only the settings that are used in development. Rename this file to dev.py so that it will be
+* common.py contains all of the settings that will be used in both production and development environments.
+* production.py contains only the settings that are used in production.
+* dev.example.py contains only the settings that are used in development. Rename this file to dev.py so that it will be
 found by the application.
