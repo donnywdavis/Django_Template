@@ -51,9 +51,7 @@ Settings
 
 The settings files are found in ``/project_name/settings/``.
 
-* \__init\__.py loads all of the common.py settings and then based on the ``ENVIRONMENT`` it will load either production.py
-or dev.py.
+* \__init\__.py loads all of the common.py settings and then based on the ``ENVIRONMENT`` it will load either production.py or dev.py.
 * common.py contains all of the settings that will be used in both production and development environments.
 * production.py contains only the settings that are used in production.
-* dev.example.py contains only the settings that are used in development. Rename this file to dev.py so that it will be
-found by the application.
+* dev.example.py contains only the settings that are used in development. Rename this file to dev.py so that it will be found by the application.
